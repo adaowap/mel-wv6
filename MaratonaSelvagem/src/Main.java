@@ -4,10 +4,14 @@ public class Main {
     public static void main(String[] args) {
 
         //Criando alguns maratonistas
-        Maratonista maratonista1 = new Maratonista("123456","Mauri", "Klein",40,"(55)9999999", "(55)99999999", "A+");
-        Maratonista maratonista2 = new Maratonista("123457","Marlise", "Klein",47,"(55)9999999", "(55)99999999", "A+");
-        Maratonista maratonista3 = new Maratonista("123458","Bruno", "Klein",14,"(55)9999999", "(55)99999999", "A+");
-        Maratonista maratonista4 = new Maratonista("123459","Keila", "Klein",10,"(55)9999999", "(55)99999999", "A+");
+        Maratonista maratonista1 = new Maratonista("123456","Mauri", "Klein",40,
+                "(55)9999999", "(55)99999999", "A+");
+        Maratonista maratonista2 = new Maratonista("123457","Marlise", "Klein",47,
+                "(55)9999999", "(55)99999999", "A+");
+        Maratonista maratonista3 = new Maratonista("123458","Bruno", "Klein",14,
+                "(55)9999999", "(55)99999999", "A+");
+        Maratonista maratonista4 = new Maratonista("123459","Keila", "Klein",10,
+                "(55)9999999", "(55)99999999", "A+");
 
         //Criando os 3 circuitos
         final Circuito pequenoCircuito = new Circuito(Categoria.PEQUENO, 2);

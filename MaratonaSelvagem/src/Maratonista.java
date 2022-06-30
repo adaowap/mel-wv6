@@ -11,7 +11,8 @@ public class Maratonista {
     public Maratonista() {
     }
 
-    public Maratonista(String RG, String nome, String sobrenome, int idade, String numeroCelular, String numeroEmergencia, String grupoSanguineo) {
+    public Maratonista(String RG, String nome, String sobrenome, int idade, String numeroCelular,
+                       String numeroEmergencia, String grupoSanguineo) {
         this.RG = RG;
         this.nome = nome;
         this.sobrenome = sobrenome;
